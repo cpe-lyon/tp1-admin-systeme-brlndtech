@@ -55,3 +55,35 @@ Bizarrement ça marche
 
 <code> cd Dossier2 </code> <br>
 <code> rm -r * </code>
+
+## PARTIE 3 Commande Importante 
+
+### Q1 
+
+date 
+
+### Q2-6
+
+-> ls Cela permet de lister les fichiers / dossier <br>
+-> la ------------------------- fichiers cachés <br>
+-> La commande ls se situe dans /usr/bin/ls <br> 
+-> ll --------------------------> fichiers / dossiers et leurs droits <br>
+
+
+### Q7 
+
+pwd 
+
+### Q8-9
+
+<code> echo 'yo' > plop </code>
+
+Cette commande permet de créer le fichier plop et d'inscrire dedant 'yo' ; 
+Cette commande permet d'inscrire à la deuxième ligne 'yo'; 
+
+
+### Q10 
+
+<code> man file </code> 
+
+permet de déterminer le type de fichier ; 
