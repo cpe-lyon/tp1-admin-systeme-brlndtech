@@ -13,7 +13,7 @@
        exécutables  correspondant  aux  noms des arguments. which ne normalise
        pas les chemins.
 
-### Q2 : Quand on consulte cette page, comment peut-on rechercher, par exemple, le mot option? 
+### Q2 : Quand on consulte cette page, comment peut-on rechercher, par exemple, le mot option ? 
 
 -> <code> man which </code>
    <code> / option </code>
