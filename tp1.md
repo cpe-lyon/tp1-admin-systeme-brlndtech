@@ -87,3 +87,8 @@ Cette commande permet d'inscrire à la deuxième ligne 'yo';
 <code> man file </code> 
 
 permet de déterminer le type de fichier ; 
+
+
+
+
+Pour afficher le code en live sur visualcode = ctrl k et après tapper sur v 
