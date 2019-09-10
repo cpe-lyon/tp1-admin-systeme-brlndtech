@@ -1,4 +1,4 @@
-# Compte rendu TP 1 - Linux | Geoffrey Sauvageot-Berland
+# Compte rendu TP1  <img src="https://image.flaticon.com/icons/svg/518/518713.svg" height="50" alt="Zozor" /> | Geoffrey Sauvageot-Berland 
 
 ## Partie 1 | 
 
@@ -58,11 +58,11 @@ Bizarrement ça marche
 
 ## PARTIE 3 Commande Importante 
 
-### **Q1 
+### **Q1 Quelle commande permet d’aﬀicher l’heure? A quoi sert la commandetime**
 
 date 
 
-### **Q2-6
+### **Q2-6**
 
 -> ls Cela permet de lister les fichiers / dossier <br>
 -> la ------------------------- fichiers cachés <br>
@@ -72,7 +72,10 @@ date
 
 ### **Q7 
 
-pwd 
+
+<code> pwd </code>
+Affiche le chemin courrant. 
+
 
 ### **Q8-9
 
@@ -176,4 +179,5 @@ updatedb: can not open a temporary file for `/var/lib/mlocate/mlocate.db' <br>
 Comme la bdd n'a pas été mis à jour via, le fichier n'est pas trouvé. 
 
 
-##### Pour afficher le code en live sur visualcode = ctrl k et après tapper sur v 
+
+
