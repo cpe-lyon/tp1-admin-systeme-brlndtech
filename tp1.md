@@ -1,6 +1,6 @@
 # Compte rendu TP1  <img src="https://image.flaticon.com/icons/svg/518/518713.svg" height="50" alt="Zozor" /> | Geoffrey Sauvageot-Berland 
 
-## Partie 1 | 
+## EX2 1. Prise en main de l’interpréteur de commandes
 
 ### **Q1 : A l’aide du manuel, identifiez le rôle de la commande which ?**
 
@@ -28,9 +28,19 @@
 
 man 6 intro 
 
-## Partie 2 | 
+##  Navigation dans l’arborescence des fichiers
 
-### **Q1-5**
+### Q1-4 : allez dans le dossier /var/log remontez dans le dossier parent (/var) en utilisant un chemin relatif3.retournez dans le dossier personnel4.revenez au dossier précédent (/var)
+
+<code> cd /var/log </code> <br>
+<code> 
+      cd .. <br>
+      cd ~ <br>
+      cd /var <br>
+</code>
+
+### **Q5 : essayez d’accéder au dossier /root; que se passe-t-il?**
+
 <code> -bash: cd: /root: Permission denied </code>
 Nous sommes connécté en utilisateur standard, il faut se connecter en root pour pouvoir accéder à son dossier (/root) 
 
@@ -56,7 +66,7 @@ Bizarrement ça marche
 <code> cd Dossier2 </code> <br>
 <code> rm -r * </code>
 
-## PARTIE 3 Commande Importante 
+## PARTIE 3 Commandes Importantes 
 
 ### **Q1 Quelle commande permet d’aﬀicher l’heure? A quoi sert la commandetime**
 
@@ -118,8 +128,8 @@ La commande <code>head -10 syslog | tail -n20</ code> ---------- seulement les l
 
 ### **Q15 Que fait la commande dmesg | less ?**
 
-via la commande  <code> Man </code >, nous apprenons que : dmesg - Afficher et contrôler le tampon circulaire du noyau <br>
----------------  <code> Man </code >, ------------------ : lass - Afficher plus au moins de contenue  
+via la commande  <code> Man </code >, nous apprenons que : dmesg - affiche et contrôle le tampon circulaire du noyau. <br>
+-------------------  <code> Man </code >, ---------------------- : lass - Affichee plus au moins de contenue  
 
 
 De manière plus clair : 
@@ -177,7 +187,5 @@ updatedb: can not open a temporary file for `/var/lib/mlocate/mlocate.db' <br>
 </code>
 
 Comme la bdd n'a pas été mis à jour via, le fichier n'est pas trouvé. 
-
-
 
 
