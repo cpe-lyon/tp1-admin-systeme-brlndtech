@@ -188,13 +188,27 @@ updatedb: can not open a temporary file for `/var/lib/mlocate/mlocate.db' <br>
 
 Comme la bdd n'a pas été mis à jour via, le fichier n'est pas trouvé. 
 
-## Exercice 3 Découverte de l'éditeur nano 
+## Exercice 3 Découverte de l'éditeur nano
 
-#### Q1 Copiez le fichier /var/log/syslog dans votre dossier personnel sous le nom log.txt, puis ouvrez-le avec nano
+
+
+### **Q1 : Copiez le fichier /var/log/syslog dans votre dossier personnel sous le nom log.txt, puis ouvrez-le avec nano**
 
 <code> cp /var/log/syslog /home/user/log.txt </code>
 
-note : ctrl + \ ne fonctionne pas pour éffectuer les remplacements souhaités. 
+### **Q2 Remplacez toutes les occurrences du mot kernel par le mot noyau**
+
+CTRL + W > CTRL + R > entrer le mot à changer, puis entrer le mot qui remplacera l'ancien
+
+
+
+### **Q3 Annulez cette action** 
+
+<code> ALT + U </code>
+
+### **Q4 : Enregistrez le fichier avant de quitter nano** 
+CTRL + x et O ou Y (en fonction de la version d'ubuntu )
+
 
 ## Exercice 4 Personnalisation du shell 
 
